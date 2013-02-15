@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  product: MyString
+  unit: MyString
+  kcal: 1
+
+two:
+  product: MyString
+  unit: MyString
+  kcal: 1
