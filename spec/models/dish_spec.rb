@@ -1,19 +1,17 @@
 # == Schema Information
 #
-# Table name: products
+# Table name: dishes
 #
 #  id         :integer          not null, primary key
 #  name       :string(255)
-#  unit       :string(255)
-#  kcal       :integer
+#  ingredient :integer
+#  calorific  :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
-require 'test_helper'
+require 'spec_helper'
 
-class ProductTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+describe Dish do
+  pending "add some examples to (or delete) #{__FILE__}"
 end

@@ -1,19 +1,15 @@
 # == Schema Information
 #
-# Table name: products
+# Table name: dishes
 #
 #  id         :integer          not null, primary key
 #  name       :string(255)
-#  unit       :string(255)
-#  kcal       :integer
+#  ingredient :integer
+#  calorific  :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
-require 'test_helper'
-
-class ProductTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+class Dish < ActiveRecord::Base
+  attr_accessible :calorific, :ingredient, :name
 end
