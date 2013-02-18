@@ -13,5 +13,7 @@
 require 'spec_helper'
 
 describe Dish do
-  pending "add some examples to (or delete) #{__FILE__}"
+	describe "validations" do
+		it { expect(build(:dish, name: nil)).to  have(1).errors_on(:name) }
+	end
 end

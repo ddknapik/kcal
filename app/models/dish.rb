@@ -11,5 +11,8 @@
 #
 
 class Dish < ActiveRecord::Base
-  attr_accessible :calorific, :ingredient, :name
+  attr_accessible :ingredient, :name
+
+  validates :name, presence: true
+
 end
