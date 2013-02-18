@@ -4,4 +4,10 @@ FactoryGirl.define do
 		unit "kg"
 		kcal { Random.new.rand(1..1000) }
 	end
+
+	factory :invalid do
+		name ""
+		unit ""
+		kcal ""
+	end
 end

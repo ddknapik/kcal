@@ -1,0 +1,5 @@
+= simple_form_for @product, html: { class: "form-horizontal form-add-product"} do |f|
+	= f.input :name, required: false
+	= f.input :kcal, required: false
+	= f.input :unit, collection: @units, required: false
+	= f.submit "Add product", class: "btn btn-inverse btn-add-product"

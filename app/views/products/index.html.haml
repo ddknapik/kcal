@@ -1,0 +1,13 @@
+%table.table.table-products-index
+	- @products.each do |product|
+		%tr
+			%td
+				%p.product-index.product-name= product.name
+			%td
+				%p= product.kcal
+			%td
+				%p= product.unit
+			%td.action-buttons
+				%button.btn.btn-mini.btn-primary= link_to "Show", product_path(product)
+				%button.btn.btn-mini.btn-primary= link_to "Edit", edit_product_path(product)
+				%button.btn.btn-mini.btn-danger Delete

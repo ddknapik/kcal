@@ -1,0 +1,26 @@
+!!!
+%html
+	%head
+		%title Kcal
+		= stylesheet_link_tag :application, :media => "all"
+		= javascript_include_tag :application
+		= csrf_meta_tags
+	%body
+		.navbar.top-panel
+			.navbar-inner
+				.span2
+					%h1
+						= link_to "getKcal", root_path, class: "site-logo"
+				%ul.nav.nav-pills#main-menu
+					%li.active
+						%a{ href: "#" } Log In
+					%li
+						%a{ href: "#" } About
+					%li
+						%a{ href: "#" } Documentation
+					%li
+						%a{ href: "#" } Contact
+		.container				
+			.row
+				.span12
+					= yield
