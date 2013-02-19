@@ -61,4 +61,50 @@ describe ProductsController do
 		end
 	end
 
+	describe "PUT update" do
+		before(:each){ @product = create(:product) }
+
+		it "assigns @product to the proper product" do
+		  put :update, id: @product, product: attributes_for(:product)
+		  expect(assigns(:product)).to eq @product
+		end
+
+		context "valid data entered" do
+		  it "updates product attributes" do
+		    put :update, id: @product, product: attributes_for(:product, name: "french fries")
+		    @product.reload
+		    expect(@product.name).to eq "french fries"
+		  end
+
+		  it "redirects to products page" do
+		  	put :update, id: @product, product: attributes_for(:product)
+		  	expect(response).to redirect_to products_path
+		  end
+		end
+
+		context "invalid data entered" do
+			it "doesn't save entered data" do
+				put :update, id: @product, product: attributes_for(:product, name: "", kcal: 1212)
+				@product.reload
+				expect(@product.kcal).not_to eq 1212
+			end
+
+		  it "re-render edit page" do
+		    put :update, id: @product, product: attributes_for(:product, name: "")
+		    expect(response).to render_template :edit
+		  end
+		end
+	end
+
+	describe "DELETE destroy" do
+		before(:each){ @product = create(:product) }
+
+		it { expect{ delete :destroy, id: @product }.to change(Product, :count).by(-1) }
+
+		it "redirects to products index" do
+			delete :destroy, id: @product
+			expect(response).to redirect_to products_path
+		end
+	end
+
 end

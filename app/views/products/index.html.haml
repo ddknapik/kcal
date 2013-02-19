@@ -8,6 +8,6 @@
 			%td
 				%p= product.unit
 			%td.action-buttons
-				%button.btn.btn-mini.btn-primary= link_to "Show", product_path(product)
-				%button.btn.btn-mini.btn-primary= link_to "Edit", edit_product_path(product)
-				%button.btn.btn-mini.btn-danger Delete
+				= link_to "Show", product_path(product), class: "btn btn-mini btn-primary"
+				= link_to "Edit", edit_product_path(product), class: "btn btn-mini btn-primary"
+				/ =link_to "Delete", product, method: :delete, confirm: "Are you sure?", title: "Delete this micropost", class: "btn btn-mini btn-danger"
