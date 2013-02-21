@@ -17,4 +17,12 @@ class Product < ActiveRecord::Base
   validates :unit, presence: true
   validates :kcal, presence: true, numericality: { greater_than: 0, only_integer: true }
 
+  private
+
+  	def self.product_search(query)
+  		if query.present?
+  			where("name ilike :q", q: "%#{query}%")
+  		end
+  	end
+
 end

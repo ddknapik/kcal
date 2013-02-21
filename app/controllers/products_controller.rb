@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
 	def index
-		@products = Product.all
+		@products = Product.product_search(params[:query]) || []
 		render :index
 	end
 

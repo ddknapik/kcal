@@ -37,14 +37,24 @@ input.btn.btn-inverse.btn-add-product {
 }
 
 p.product-index.product-name {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: bold;
 }
 
 table.table.table-products-index {
-	width: 50%;
+	width: 100%;
 	button a {
 		color: #fff;
 		text-decoration: none;
 	}
+}
+
+input.input-search-home {
+	width: 100%;
+}
+
+button.btn.btn-inverse.submit-search-home {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
 }

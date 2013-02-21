@@ -12,14 +12,11 @@
 					%h1
 						= link_to "getKcal", root_path, class: "site-logo"
 				%ul.nav.nav-pills#main-menu
-					%li.active
-						%a{ href: "#" } Log In
-					%li
-						%a{ href: "#" } About
-					%li
-						%a{ href: "#" } Documentation
-					%li
-						%a{ href: "#" } Contact
+					%li= link_to "Home", root_path
+					%li.active= link_to "Items", products_path
+					%li= link_to "About", products_path
+					%li= link_to "Contact", products_path
+					%li= link_to "Log In", products_path\
 		.container				
 			.row
 				.span12
