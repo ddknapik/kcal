@@ -51,10 +51,37 @@ table.table.table-products-index {
 
 input.input-search-home {
 	width: 100%;
+	color: #000;
 }
 
 button.btn.btn-inverse.submit-search-home {
 	display: block;
 	margin: 10px auto;
 	text-align: center;
+}
+
+.ui-helper-hidden-accessible {
+	display: none;
+}
+
+
+ul#ui-id-1 {
+	position: absolute; z-index: 999;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	// border: solid 3px #000;
+
+	li {
+		background: #eee;
+		padding: 5px 10px 5px 5px;
+		border-bottom: 1px solid #aaa;
+		&:hover {
+			background: #ccc;
+		}
+		a {
+			text-decoration: none;
+			color: #111;
+		}
+	}
 }

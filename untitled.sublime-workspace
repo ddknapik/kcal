@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"b",
+				"block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
 				"In",
 				"In"
 			],
@@ -25,10 +41,6 @@
 			],
 			[
 				"produc",
-				"products_path"
-			],
-			[
-				"produ",
 				"products_path"
 			],
 			[
@@ -74,10 +86,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"ma",
@@ -480,10 +488,26 @@
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "app/controllers/products_controller.rb",
 			"settings":
 			{
-				"buffer_size": 482,
+				"buffer_size": 802,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/products/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 682,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 144,
 				"line_ending": "Unix"
 			}
 		},
@@ -491,15 +515,15 @@
 			"file": "app/assets/stylesheets/application.css.scss",
 			"settings":
 			{
-				"buffer_size": 783,
+				"buffer_size": 827,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/pages/home.html.haml",
+			"file": "app/views/layouts/application.html.haml",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 557,
 				"line_ending": "Unix"
 			}
 		}
@@ -540,12 +564,18 @@
 	},
 	"file_history":
 	[
-		"/home/damian/Rails/kcal/app/views/products/edit.html.haml",
+		"/home/damian/Rails/kcal/.gitignore",
+		"/home/damian/Rails/kcal/app/views/products/_search.html.haml",
+		"/home/damian/Rails/kcal/app/assets/stylesheets/application.css.scss",
 		"/home/damian/Rails/kcal/app/views/products/index.html.haml",
+		"/home/damian/Rails/kcal/config/routes.rb",
+		"/home/damian/Rails/kcal/Gemfile",
+		"/home/damian/Rails/kcal/app/models/product.rb",
+		"/home/damian/Rails/kcal/app/controllers/pages_controller.rb",
+		"/home/damian/Rails/kcal/app/views/pages/home.html.haml",
+		"/home/damian/Rails/kcal/app/views/products/edit.html.haml",
 		"/home/damian/Rails/kcal/app/views/layouts/application.html.haml",
 		"/home/damian/Rails/kcal/config.ru",
-		"/home/damian/Rails/kcal/app/assets/stylesheets/application.css.scss",
-		"/home/damian/Rails/kcal/config/routes.rb",
 		"/home/damian/Rails/kcal/app/views/products/_new.html.haml",
 		"/home/damian/Rails/kcal/config/application.rb",
 		"/home/damian/Rails/kcal/app/controllers/application_controller.rb",
@@ -553,18 +583,14 @@
 		"/home/damian/Rails/kcal/spec/controllers/.gitignore",
 		"/home/damian/Rails/kcal/app/controllers/products_controller.rb",
 		"/home/damian/Rails/kcal/app/assets/javascripts/application.js",
-		"/home/damian/Rails/kcal/app/controllers/pages_controller.rb",
-		"/home/damian/Rails/kcal/app/views/pages/home.html.haml",
 		"/home/damian/Rails/kcal/app/views/layouts/application.html.erb",
 		"/home/damian/Rails/kcal/spec/controllers/products_controller_spec.rb",
 		"/home/damian/Rails/kcal/app/views/products/show.html.haml",
 		"/home/damian/Rails/kcal/spec/factories/products.rb",
-		"/home/damian/Rails/kcal/Gemfile",
 		"/home/damian/Rails/kcal/app/views/products/new.html.haml",
 		"/home/damian/Rails/kcal/spec/models/product_spec.rb",
 		"/home/damian/Rails/kcal/app/assets/stylesheets/application.scss",
 		"/home/damian/Rails/kcal/spec/spec_helper.rb",
-		"/home/damian/Rails/kcal/app/models/product.rb",
 		"/home/damian/Rails/kcal/spec/models/dish_spec.rb",
 		"/home/damian/Rails/kcal/spec/factories/dishes.rb",
 		"/home/damian/Rails/kcal/app/models/dish.rb",
@@ -665,9 +691,7 @@
 		"/home/damian/workshops_blog/app/controllers/comments_controller.rb",
 		"/home/damian/workshops_blog/app/views/comments/_comment.html.erb",
 		"/home/damian/workshops_blog/app/controllers/posts_controller.rb",
-		"/home/damian/workshops_blog/app/models/comment.rb",
-		"/home/damian/workshops_blog/app/models/post.rb",
-		"/home/damian/workshops_blog/app/controllers/admin/posts_controller.rb"
+		"/home/damian/workshops_blog/app/models/comment.rb"
 	],
 	"find":
 	{
@@ -685,6 +709,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"puts",
+			"default",
+			"calculate_kcal",
+			"index",
+			"nil",
+			"get",
 			"input",
 			"btn",
 			"products_path",
@@ -806,13 +836,7 @@
 			"irst",
 			"input",
 			"tbody",
-			"mce",
-			"text",
-			"defaultForm",
-			"showMore",
-			"icons",
-			"line-height",
-			"line-he"
+			"mce"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -864,7 +888,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -889,30 +913,58 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1092.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": ".gitignore",
+					"file": "app/controllers/products_controller.rb",
 					"settings":
 					{
-						"buffer_size": 482,
+						"buffer_size": 802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								482,
-								482
+								118,
+								118
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/products/index.html.haml",
+					"settings":
+					{
+						"buffer_size": 682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -921,19 +973,45 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/assets/stylesheets/application.css.scss",
+					"buffer": 3,
+					"file": "app/helpers/application_helper.rb",
 					"settings":
 					{
-						"buffer_size": 783,
+						"buffer_size": 144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								778,
-								778
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/assets/stylesheets/application.css.scss",
+					"settings":
+					{
+						"buffer_size": 827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
 							]
 						],
 						"settings":
@@ -942,30 +1020,31 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/views/pages/home.html.haml",
+					"buffer": 5,
+					"file": "app/views/layouts/application.html.haml",
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 557,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								71
+								557,
+								557
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage"
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
