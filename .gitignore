@@ -14,5 +14,6 @@
 /log/*.log
 /tmp
 
-untitled.sublime-workspace
-untitled.sublime-project
+/untitled.sublime-workspace
+/untitled.sublime-project
+/config/application.yml

@@ -9,6 +9,8 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+ENV.update  YAML.load(File.read(File.expand_path('../application.yml', __FILE__)))
+
 module Kcal
   class Application < Rails::Application
 
