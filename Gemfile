@@ -40,7 +40,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
 gem 'simple_form'
-
 gem 'rack-mini-profiler'
+gem 'omniauth-facebook'

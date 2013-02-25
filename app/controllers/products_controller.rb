@@ -2,7 +2,11 @@ class ProductsController < ApplicationController
 
 	def index
 		@products = Product.product_search(params[:query]) || []
-		render :index
+
+		respond_to do |format|
+			format.html { render :index }
+			format.js
+		end
 	end
 
 	def show

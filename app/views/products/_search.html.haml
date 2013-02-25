@@ -1,4 +1,4 @@
 %h2 How many calories in...
-= form_tag products_path, method: 'get', class: 'form-search' do
+= form_tag products_path, method: 'get', remote: true, class: 'form-search' do
 	= text_field_tag :query, params[:query], class: 'input-search-home', id: 'search'
 	%button.btn.btn-inverse.submit-search-home Search

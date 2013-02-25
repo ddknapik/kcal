@@ -14,7 +14,7 @@ class SearchSuggestion < ActiveRecord::Base
   attr_accessible :popularity, :term, :kcal
 
   def self.terms_for(prefix)
-  	suggestions = where("term like ?", "#{prefix}_%")
+  	suggestions = where("term like ?", "#{prefix}%")
   	result = suggestions.select("term, kcal").order("popularity desc").limit(10)
   	# result = suggestions.order("popularity desc").limit(10).collect{ |suggestion| [suggestion.term, suggestion.kcal] }
   	# suggestions.order("popularity desc").limit(10).collect { |s| puts "#{s.term}"}

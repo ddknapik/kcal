@@ -12,13 +12,13 @@ $(document).ready(function(){
 		    success: function( data ){
 		    	response( $.map( data, function( item ){
 		      	return{
-		  	      label: "<strong>" + item.term + "</strong>" + "<span style=\"float: right;\">" + item.kcal + " kcal</span>",
+		  	      label: "<strong>" + item.term + "</strong><span class=\"suggestion-label-kcal\">" + item.kcal /10 + " kcal/100g</span>",
 		          value: item.term                                
 		        }
 		      }));
 		    }
 		  });               
-		}
+		},
 	});
 
 	$[ "ui" ][ "autocomplete" ].prototype["_renderItem"] = function( ul, item) {
