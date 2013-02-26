@@ -89,3 +89,31 @@ ul#ui-id-1 {
 .suggestion-label-kcal {
 	float: right;
 }
+
+li.social-login {
+	color:	rgb(119, 119, 119);
+	padding-top: 3px;
+	a.facebook-login-button {
+		@include box-shadow(rgba(255, 255, 255, 0.298039) 0px 1px 0px 0px);
+		background: rgba(0, 0, 0, 0) url('facebook.png') no-repeat 50% 50%;
+		-webkit-border-image: none;
+		border: solid 1px rgb(184, 184, 185);
+		border-radius: 5px;
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		margin: 0 0 0 10px;
+		padding: 0px;
+		position: relative;
+		vertical-align: middle;
+		&:hover {
+			@include box-shadow(rgba(0, 0, 0, 0.121569) 0px 3px 8px 0px);
+			background-color: rgb(230, 230, 230);
+		}
+	}
+
+	a.twitter-login-button {
+		@extend .facebook-login-button;
+		background: rgba(0, 0, 0, 0) url('twitter.png') no-repeat 50% 50%;
+	}
+}

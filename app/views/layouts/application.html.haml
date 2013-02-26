@@ -12,11 +12,14 @@
 					%h1
 						= link_to "getKcal", root_path, class: "site-logo"
 				%ul.nav.nav-pills#main-menu
-					%li= link_to "Home", root_path
-					%li.active= link_to "Items", products_path
+					%li.active= link_to "Home", root_path
+					%li= link_to "Items", products_path
 					%li= link_to "About", products_path
 					%li= link_to "Contact", products_path
-					%li= link_to "Log In", products_path
+					%li.social-login
+						Log in with:
+						= link_to '', '/auth/facebook', class: 'facebook-login-button'
+						= link_to '', '/auth/twitter', class: 'twitter-login-button'
 		.container				
 			.row
 				.span12
