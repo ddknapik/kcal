@@ -4,11 +4,14 @@ Kcal::Application.routes.draw do
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
 
+  match 'contact', to: 'pages#contact', as: 'contact'
+  match 'about', to: 'pages#about', as: 'about'
+
+  root to: 'products#index'
 
   resources :search_suggestions
   resources :products
 
-  root to: 'products#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

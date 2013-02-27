@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"x",
-				"x"
+				"tex",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"te",
+				"text-decoration"
 			],
 			[
 				"text",
-				"text-indent"
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"oath",
+				"oauth_expires_at"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"x",
+				"x"
 			],
 			[
 				"padd",
@@ -196,16 +224,8 @@
 				"inline-block"
 			],
 			[
-				"marg",
-				"margin"
-			],
-			[
 				"code",
 				"codeschoolCourse"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"mrg",
@@ -308,10 +328,6 @@
 				"outline"
 			],
 			[
-				"te",
-				"text-top"
-			],
-			[
 				"font-",
 				"font-weight"
 			],
@@ -354,10 +370,6 @@
 			[
 				"log",
 				"log_out"
-			],
-			[
-				"us",
-				"username"
 			],
 			[
 				"c",
@@ -491,6 +503,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2133,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -528,10 +548,20 @@
 	},
 	"file_history":
 	[
-		"/home/damian/Rails/kcal/config/routes.rb",
+		"/home/damian/Rails/kcal/app/controllers/sessions_controller.rb",
+		"/home/damian/Rails/kcal/app/models/user.rb",
 		"/home/damian/Rails/kcal/app/views/layouts/application.html.haml",
+		"/home/damian/Rails/kcal/app/assets/javascripts/layout.js",
+		"/home/damian/Rails/kcal/app/assets/javascripts/products.js",
+		"/home/damian/Rails/kcal/app/assets/javascripts/application.js",
+		"/home/damian/Rails/kcal/app/assets/javascripts/global.js",
+		"/home/damian/Rails/kcal/app/controllers/application_controller.rb",
 		"/home/damian/Rails/kcal/app/assets/stylesheets/application.css.scss",
+		"/home/damian/Rails/kcal/app/controllers/pages_controller.rb",
+		"/home/damian/Rails/kcal/app/views/pages/about.html.haml",
+		"/home/damian/Rails/kcal/app/views/pages/contact.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/index.js.erb",
+		"/home/damian/Rails/kcal/config/routes.rb",
 		"/home/damian/Rails/kcal/spec/models/product_spec.rb",
 		"/home/damian/Pulpit/welcome.rb",
 		"/home/damian/Rails/kcal/config/application.rb",
@@ -541,14 +571,12 @@
 		"/home/damian/Rails/kcal/.gitignore",
 		"/home/damian/Rails/kcal/app/views/products/index.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/_new.html.haml",
-		"/home/damian/Rails/kcal/app/assets/javascripts/products.js",
 		"/home/damian/Rails/kcal/app/controllers/products_controller.rb",
 		"/home/damian/Rails/kcal/app/views/products/_search.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/_product.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/edit.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/home.html.haml",
 		"/home/damian/Rails/kcal/app/models/search_suggestion.rb",
-		"/home/damian/Rails/kcal/app/assets/javascripts/application.js",
 		"/home/damian/Rails/kcal/app/controllers/search_suggestions_controller.rb",
 		"/home/damian/Rails/kcal/app/models/product.rb",
 		"/home/damian/Rails/kcal/app/views/pages/home.html.haml",
@@ -560,9 +588,7 @@
 		"/home/damian/Rails/kcal/app/assets/javascripts/products.js.coffee",
 		"/home/damian/Rails/kcal/app/helpers/application_helper.rb",
 		"/home/damian/Rails/kcal/spec/controllers/products_controller_spec.rb",
-		"/home/damian/Rails/kcal/app/controllers/pages_controller.rb",
 		"/home/damian/Rails/kcal/config.ru",
-		"/home/damian/Rails/kcal/app/controllers/application_controller.rb",
 		"/home/damian/Rails/kcal/lib/assets/.gitkeep",
 		"/home/damian/Rails/kcal/spec/controllers/.gitignore",
 		"/home/damian/Rails/kcal/app/views/layouts/application.html.erb",
@@ -649,13 +675,7 @@
 		"/home/damian/Pulpit/sinatra/public/wysihtml5/examples/css/stylesheet.css",
 		"/home/damian/Pulpit/sinatra/public/wysihtml5/examples/simple.html",
 		"/home/damian/Pulpit/zajawka/app.rb",
-		"/home/damian/Pulpit/zajawka/Gemfile",
-		"/home/damian/avazon/templates/layout.mustache",
-		"/home/damian/avazon/templates/index.mustache",
-		"/home/damian/avazon/views/layout.rb",
-		"/home/damian/avazon/Gemfile",
-		"/home/damian/avazon/app.rb",
-		"/home/damian/avazon/config.ru"
+		"/home/damian/Pulpit/zajawka/Gemfile"
 	],
 	"find":
 	{
@@ -673,6 +693,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contact",
+			"top",
+			"right",
+			"Contact",
 			"welcome",
 			"About",
 			"true",
@@ -796,11 +820,7 @@
 			"body",
 			"span",
 			"relative",
-			"span",
-			">",
-			"Life",
-			"life",
-			"line"
+			"span"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -852,8 +872,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

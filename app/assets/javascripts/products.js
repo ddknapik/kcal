@@ -28,10 +28,4 @@ $(document).ready(function(){
 		.appendTo( ul );
 	};
 
-	$(".authentication-toggle").on({
-		click: function(){
-			$(".authenticate-dropdown-menu").toggle()
-		}
-	})
-
 });
