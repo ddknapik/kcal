@@ -13,13 +13,29 @@
 						= link_to "getKcal", root_path, class: "site-logo"
 				%ul.nav.nav-pills#main-menu
 					%li.active= link_to "Home", root_path
-					%li= link_to "Items", products_path
+					%li= link_to "My dishes", products_path if current_user
 					%li= link_to "About", products_path
 					%li= link_to "Contact", products_path
-					%li.social-login
-						Log in with:
-						= link_to '', '/auth/facebook', class: 'facebook-login-button'
-						= link_to '', '/auth/twitter', class: 'twitter-login-button'
+					- if current_user
+						%li= link_to 'Sign Out', signout_path
+					- else
+						%li.dropdown
+							%a.authentication-toggle{ href: "#"}
+								Authenticate
+								%span.caret
+				%ul.authenticate-dropdown-menu
+					%li
+						Sign in with:
+						= link_to '', '/auth/facebook', class: 'facebook-login-button', title: 'Sign in with your Facebook account'
+						= link_to '', '/auth/twitter', class: 'twitter-login-button', title: 'Sign in with your Twitter account'
+						%span.conjunction or
+						%form.form-inline.layout-login
+							%input.input-small{ type: 'text', placeholder: 'E-mail'}
+							%input.input-small{ type: 'password', placeholder: 'Password'}
+							%input.btn{ type: 'submit', value: 'Sign in' }
+					%li
+						Don't have an account yet?
+						= link_to "Create one!", products_path, title: 'Create an account'
 		.container				
 			.row
 				.span12

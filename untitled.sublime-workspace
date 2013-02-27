@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"x",
+				"x"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
 				"se",
 				"suggestion"
 			],
@@ -16,24 +36,8 @@
 				"dob	Insert do |variable| … end"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"border",
-				"border-bottom"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
 				"backgr",
 				"background-color"
-			],
-			[
-				"backgro",
-				"background"
 			],
 			[
 				"b",
@@ -487,62 +491,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1874,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 860,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/initializers/omniauth.rb",
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/application.yml",
-			"settings":
-			{
-				"buffer_size": 86,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/application.rb",
-			"settings":
-			{
-				"buffer_size": 3193,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.haml",
-			"settings":
-			{
-				"buffer_size": 556,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 509,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -580,21 +528,27 @@
 	},
 	"file_history":
 	[
+		"/home/damian/Rails/kcal/config/routes.rb",
+		"/home/damian/Rails/kcal/app/views/layouts/application.html.haml",
+		"/home/damian/Rails/kcal/app/assets/stylesheets/application.css.scss",
+		"/home/damian/Rails/kcal/app/views/products/index.js.erb",
+		"/home/damian/Rails/kcal/spec/models/product_spec.rb",
+		"/home/damian/Pulpit/welcome.rb",
+		"/home/damian/Rails/kcal/config/application.rb",
+		"/home/damian/Rails/kcal/config/application.yml",
+		"/home/damian/Rails/kcal/config/initializers/omniauth.rb",
+		"/home/damian/Rails/kcal/Gemfile",
 		"/home/damian/Rails/kcal/.gitignore",
 		"/home/damian/Rails/kcal/app/views/products/index.html.haml",
-		"/home/damian/Rails/kcal/app/views/products/index.js.erb",
 		"/home/damian/Rails/kcal/app/views/products/_new.html.haml",
 		"/home/damian/Rails/kcal/app/assets/javascripts/products.js",
-		"/home/damian/Rails/kcal/app/assets/stylesheets/application.css.scss",
 		"/home/damian/Rails/kcal/app/controllers/products_controller.rb",
 		"/home/damian/Rails/kcal/app/views/products/_search.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/_product.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/edit.html.haml",
 		"/home/damian/Rails/kcal/app/views/products/home.html.haml",
 		"/home/damian/Rails/kcal/app/models/search_suggestion.rb",
-		"/home/damian/Rails/kcal/app/views/layouts/application.html.haml",
 		"/home/damian/Rails/kcal/app/assets/javascripts/application.js",
-		"/home/damian/Rails/kcal/Gemfile",
 		"/home/damian/Rails/kcal/app/controllers/search_suggestions_controller.rb",
 		"/home/damian/Rails/kcal/app/models/product.rb",
 		"/home/damian/Rails/kcal/app/views/pages/home.html.haml",
@@ -606,10 +560,8 @@
 		"/home/damian/Rails/kcal/app/assets/javascripts/products.js.coffee",
 		"/home/damian/Rails/kcal/app/helpers/application_helper.rb",
 		"/home/damian/Rails/kcal/spec/controllers/products_controller_spec.rb",
-		"/home/damian/Rails/kcal/config/routes.rb",
 		"/home/damian/Rails/kcal/app/controllers/pages_controller.rb",
 		"/home/damian/Rails/kcal/config.ru",
-		"/home/damian/Rails/kcal/config/application.rb",
 		"/home/damian/Rails/kcal/app/controllers/application_controller.rb",
 		"/home/damian/Rails/kcal/lib/assets/.gitkeep",
 		"/home/damian/Rails/kcal/spec/controllers/.gitignore",
@@ -617,7 +569,6 @@
 		"/home/damian/Rails/kcal/app/views/products/show.html.haml",
 		"/home/damian/Rails/kcal/spec/factories/products.rb",
 		"/home/damian/Rails/kcal/app/views/products/new.html.haml",
-		"/home/damian/Rails/kcal/spec/models/product_spec.rb",
 		"/home/damian/Rails/kcal/app/assets/stylesheets/application.scss",
 		"/home/damian/Rails/kcal/spec/spec_helper.rb",
 		"/home/damian/Rails/kcal/spec/models/dish_spec.rb",
@@ -704,10 +655,7 @@
 		"/home/damian/avazon/views/layout.rb",
 		"/home/damian/avazon/Gemfile",
 		"/home/damian/avazon/app.rb",
-		"/home/damian/avazon/config.ru",
-		"/home/damian/Pulpit/zajawka/home.mustache",
-		"/home/damian/Pulpit/zajawka/layout.mustache",
-		"/home/damian/workshops_blog/app/models/user.rb"
+		"/home/damian/avazon/config.ru"
 	],
 	"find":
 	{
@@ -725,6 +673,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"welcome",
+			"About",
 			"true",
 			"term",
 			"stateAbbrev",
@@ -850,9 +800,7 @@
 			">",
 			"Life",
 			"life",
-			"line",
-			"puts",
-			"Nokospoko"
+			"line"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -904,196 +852,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1874,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 860,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								859,
-								859
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config/initializers/omniauth.rb",
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "config/application.yml",
-					"settings":
-					{
-						"buffer_size": 86,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								86,
-								86
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "config/application.rb",
-					"settings":
-					{
-						"buffer_size": 3193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								409,
-								409
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/layouts/application.html.haml",
-					"settings":
-					{
-						"buffer_size": 556,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								556,
-								556
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": ".gitignore",
-					"settings":
-					{
-						"buffer_size": 509,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								484,
-								484
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1147,11 +907,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/home/damian/Rails/kcal/untitled.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": false,
 	"show_open_files": true,

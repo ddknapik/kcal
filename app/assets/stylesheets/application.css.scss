@@ -20,9 +20,8 @@ a.site-logo {
 ul#main-menu {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	display: inline;
+	display: inline-block;
 	float: right;
-	// clear: both;
 }
 
 .form-add-product {
@@ -90,30 +89,66 @@ ul#ui-id-1 {
 	float: right;
 }
 
-li.social-login {
-	color:	rgb(119, 119, 119);
-	padding-top: 3px;
-	a.facebook-login-button {
-		@include box-shadow(rgba(255, 255, 255, 0.298039) 0px 1px 0px 0px);
-		background: rgba(0, 0, 0, 0) url('facebook.png') no-repeat 50% 50%;
-		-webkit-border-image: none;
-		border: solid 1px rgb(184, 184, 185);
-		border-radius: 5px;
-		display: inline-block;
-		height: 32px;
-		width: 32px;
-		margin: 0 0 0 10px;
-		padding: 0px;
-		position: relative;
-		vertical-align: middle;
-		&:hover {
-			@include box-shadow(rgba(0, 0, 0, 0.121569) 0px 3px 8px 0px);
-			background-color: rgb(230, 230, 230);
+.facebook-login-button {
+	@include box-shadow(rgba(255, 255, 255, 0.298039) 0px 1px 0px 0px);
+	background: rgba(0, 0, 0, 0) url('facebook.png') no-repeat 50% 50%;
+	-webkit-border-image: none;
+	border: solid 1px rgb(184, 184, 185);
+	border-radius: 5px;
+	display: inline-block;
+	clear: both;
+	height: 32px;
+	width: 32px;
+	margin: 0 0 0 5px;
+	padding: 0px;
+	vertical-align: middle;
+	&:hover {
+		@include box-shadow(rgba(0, 0, 0, 0.121569) 0px 3px 8px 0px);
+		background-color: rgb(230, 230, 230);
+	}
+}
+
+.twitter-login-button {
+	@extend .facebook-login-button;
+	background: rgba(0, 0, 0, 0) url('twitter.png') no-repeat 50% 50%;
+}
+
+span.caret {
+	position: relative; top: -2px;
+}
+
+ul.authenticate-dropdown-menu {
+	list-style-type: none;
+	text-align: left;
+	display: none;
+	clear: both;
+	float: right;
+	li {
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: right;
+		a {
+			color: rgb(119, 119, 119);
+			text-decoration: none;
+			&:hover {
+				color: #000;
+				text-decoration: none;
+			}
 		}
 	}
+}
 
-	a.twitter-login-button {
-		@extend .facebook-login-button;
-		background: rgba(0, 0, 0, 0) url('twitter.png') no-repeat 50% 50%;
+form.form-inline.layout-login {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	.btn {
+		margin: 0;
 	}
+}
+
+.conjunction {
+	margin: 0 10px;
+	display: inline;
 }

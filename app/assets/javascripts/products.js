@@ -26,6 +26,12 @@ $(document).ready(function(){
 		.data( "item.autocomplete", item )
 		.append( $( "<a></a>" ).html( item.label ) )
 		.appendTo( ul );
-};
+	};
 
-}); 
+	$(".authentication-toggle").on({
+		click: function(){
+			$(".authenticate-dropdown-menu").toggle()
+		}
+	})
+
+});
