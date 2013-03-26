@@ -152,3 +152,10 @@ form.form-inline.layout-login {
 	margin: 0 10px;
 	display: inline;
 }
+
+.form-message {
+	width: 500px;
+	textarea {
+		width: 100%;
+	}
+}

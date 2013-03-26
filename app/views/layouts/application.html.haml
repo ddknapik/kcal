@@ -38,5 +38,13 @@
 						= link_to "Create one!", products_path, title: 'Create an account'
 		.container				
 			.row
+				.span1
+				.span10
+					- flash.each do |name, msg|
+						- if name == "success" || "error" ? style = name : style = "info"
+							%div{ class: "alert alert-#{style}" }
+								%button.close{ data: {dismiss: 'alert'}, type: "button" } &times;
+								= msg
+			.row
 				.span12
 					= yield

@@ -1,0 +1,6 @@
+= simple_form_for @message, html: { class: 'form-horizontal form-message' } do |f|
+	= f.input :name, required: false
+	= f.input :email, required: false
+	= f.input :subject, required: false
+	= f.input :body, as: :text, input_html: { cols: 80, rows: 8 }
+	= f.submit 'Send', class: "btn btn-inverse btn-add-product"

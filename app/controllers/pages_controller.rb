@@ -5,6 +5,7 @@ class PagesController < ApplicationController
 	end
 
 	def contact
+		@contact = nil
 		render :contact
 	end
 
